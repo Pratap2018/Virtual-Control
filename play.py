@@ -57,10 +57,10 @@ while True:
                 m2=cv2.moments(contours[1])
                 x=int(m1["m10"]/m1["m00"])
                 y=int(m1["m01"]/m1["m00"])
-                if(x>320): #detecting exact left cont
+                if(x>320): #detecting exact right cont
                     x2=x
                     y2=y
-                else:   #detecting exact right cont
+                else:   #detecting exact left cont
                     x1=x
                     y1=y
                
